@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var veriumcore = require('../lib/cli/bitcore');
+veriumcore();

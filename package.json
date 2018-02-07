@@ -1,6 +1,6 @@
 {
-  "name": "bitcore-node",
-  "description": "Full node with extended capabilities using Bitcore and Bitcoin Core",
+  "name": "veriumcore-node",
+  "description": "Full node with extended capabilities using VeriumCore and Verium Reserve Core",
   "engines": {
     "node": ">=8.0.0"
   },
@@ -13,14 +13,14 @@
     "url": "https://github.com/bitpay/bitcore-node/issues"
   },
   "bin": {
-    "bitcore-node": "./bin/bitcore-node"
+    "veriumcore-node": "./bin/veriumcore-node"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec --recursive test"
   },
   "tags": [
-    "bitcoin",
-    "bitcoind",
+    "verium",
+    "veriumd",
     "bcoin",
     "bitcoin full node",
     "bitcoin index",
@@ -31,8 +31,8 @@
     "async": "^2.5.0",
     "bcoin": "bitpay/bcoin#v1.0.0-beta.14+cash",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib": "5.0.0-beta.1",
-    "bitcore-p2p": "5.0.0-beta.1",
+    "veriumcore-lib": "5.0.0-beta.1",
+    "veriumcore-p2p": "5.0.0-beta.1",
     "bn.js": "^4.11.8",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
