@@ -21,15 +21,15 @@
   "tags": [
     "verium",
     "veriumd",
-    "bcoin",
-    "bitcoin full node",
-    "bitcoin index",
+    "verium-bcoin",
+    "verium full node",
+    "verium index",
     "block explorer",
     "wallet backend"
   ],
   "dependencies": {
     "async": "^2.5.0",
-    "bcoin": "bitpay/bcoin#v1.0.0-beta.14+cash",
+    "verium-bcoin": "^1.0.0",
     "veriumd-rpc": "^0.7.1",
     "veriumcore-lib": "0.15.0",
     "veriumcore-p2p": "5.0.0",
